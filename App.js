@@ -1,28 +1,21 @@
-import { StatusBar } from "expo-status-bar";
+// import { StatusBar } from "expo-status-bar";
 import { StyleSheet, Text, View } from "react-native";
-import Splash from "./src/Splash";
-import Login from "./src/Login";
+import Splash from "./src/Splash.jsx";
+import Login from "./src/Login.jsx";
 import { NavigationContainer } from "@react-navigation/native";
 import { createNativeStackNavigator } from "@react-navigation/native-stack";
-import Register from "./src/Register";
-import ForgotPassword from "./src/ForgotPassword";
-import Home from "./src/Home";
-import CustomList from "./src/CustomList";
-import ChatUiScreen from "./src/ChatUiScreen";
-import ProfileSettings from "./src/ProfileSettings";
-import UserProfileSettings from "./src/UserProfileSettings";
-import CreateNewChat from "./src/CreateNewChat";
-import GetPhoto from "./src/GetPhoto";
-import Credits from "./src/Credits";
+import Register from "./src/Register.jsx";
+import ForgotPassword from "./src/ForgotPassword.jsx";
+import Home from "./src/Home.jsx";
+// import CustomList from "./src/CustomList.jsx";
+import ChatUiScreen from "./src/ChatUiScreen.jsx";
+import ProfileSettings from "./src/ProfileSettings.jsx";
+import UserProfileSettings from "./src/UserProfileSettings.jsx";
+import CreateNewChat from "./src/CreateNewChat.jsx";
+import GetPhoto from "./src/GetPhoto.jsx";
+import Credits from "./src/Credits.jsx";
 
 export default function App() {
-  // function Splash() {
-  //   return <Splash />;
-  // }
-  // function Login() {
-  //   return <Login />;
-  // }
-
   const Stack = createNativeStackNavigator();
   const globalScreenOptions = {
     // headerStyle: { backgroundColor: "#2C6BED" },
@@ -84,11 +77,6 @@ export default function App() {
               title: "User Profile Settings 🕵",
             }}
           />
-          {/* <Stack.Screen
-            name="CustomList"
-            component={CustomList}
-            options={{ headerShown: false }}
-          /> */}
 
           <Stack.Screen
             name="ChatUiScreen"
