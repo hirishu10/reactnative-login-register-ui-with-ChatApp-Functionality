@@ -1,32 +1,33 @@
 {
   "expo": {
-    "name": "react-native-login-register",
-    "slug": "react-native-login-register",
+    "name": "ChatApp hirishu10",
+    "slug": "reactnative-login-register-ui-with-chatapp-functionality",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/logo.png",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/logo.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#000000"
     },
     "updates": {
       "fallbackToCacheTimeout": 0
     },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
+    "assetBundlePatterns": ["**/*"],
     "ios": {
       "supportsTablet": true
     },
     "android": {
+      "package": "com.hirishu.chatapp",
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/logo.png",
         "backgroundColor": "#FFFFFF"
       }
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "description": "Simple reactnative-login-register-ui and ChatApp Functionality with the help of Firebase, React Native,Javascript, Expo,react-native-customized-box,etc.",
+    "githubUrl": "https://github.com/hirishu10/reactnative-login-register-ui-with-ChatApp-Functionality.git"
   }
 }
