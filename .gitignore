@@ -11,7 +11,7 @@ npm-debug.*
 web-build/
 
 # don't include
-
+Config.js
 
 # macOS
 .DS_Store

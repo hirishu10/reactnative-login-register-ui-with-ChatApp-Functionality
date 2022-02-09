@@ -27,7 +27,7 @@ export default function Splash({ navigation }) {
     } catch (error) {
       alert("Something went wrong");
     }
-  });
+  }, [navigation]);
 
   return (
     <View style={styles.container}>

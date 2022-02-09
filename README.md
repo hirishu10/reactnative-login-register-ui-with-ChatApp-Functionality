@@ -4,7 +4,7 @@
 
 Simple reactnative-login-register-ui and ChatApp Functionality with the help of Firebase, React Native,Javascript, Expo,react-native-customized-box,etc.
 
-##### **Expo:**
+##### **Expo:** https://expo.dev/@hirishu/reactnative-login-register-ui-with-chatapp-functionality
 
 ##### **Github:** https://github.com/hirishu10/reactnative-login-register-ui-with-ChatApp-Functionality
 
